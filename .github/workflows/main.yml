@@ -1,0 +1,13 @@
+# Create the python file
+touch my_script.py
+# Paste the python code into the file.
+git init
+git add my_script.py
+git commit -m "Initial commit: added greeting script"
+git remote add origin https://github.com/yourusername/python-greeting.git #replace with your repo url.
+git push -u origin main
+touch README.md
+#paste the markdown into the README.md file
+git add README.md
+git commit -m "Added README.md"
+git push origin main
