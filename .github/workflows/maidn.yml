@@ -1,0 +1,21 @@
+name: Madsddsnager
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: gasdd
+    runs-on: windows-latest
+    timeout-minutes: 240
+    
+    steps:
+      - name: ssedafdasntials
+        run: |
+          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
+      - name: Manasaddsager
+        run: cmd /c show.bat
+
+      - name: unter
+        run: cmd /c loop.bat
